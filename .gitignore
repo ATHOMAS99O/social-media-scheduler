@@ -1,0 +1,27 @@
+# Root
+.env
+.DS_Store
+Thumbs.db
+
+# Node (backend - server/)
+server/node_modules/
+server/.env
+server/dist/
+server/logs/
+
+# React (frontend - client/)
+client/node_modules/
+client/.env
+client/dist/
+client/.vite/
+client/.next/
+client/build/
+client/.cache/
+
+# OS & IDE
+.vscode/
+.idea/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
